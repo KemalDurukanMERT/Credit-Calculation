@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-part{
+    /* border: 3px solid red; */
+    width: 70vw;
+    margin: auto;
+    /* padding-top: 2rem; */
+    line-height: 2rem;
+    font-family: sans-serif;
+}
+
+h1{
+    /* border: 3px solid blue; */
+    color: goldenrod;
+    margin: 1rem 0; 
+}
+
+input, select{
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+button{
+    width: 100%;
+    height: 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+
