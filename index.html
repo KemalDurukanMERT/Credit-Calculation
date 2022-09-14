@@ -15,9 +15,9 @@
         <br />
         <select name="credit" id="type-of-credit">
           <option value="" selected>Choose</option>
-          <option value="house-loan">House Loan</option>
-          <option value="consumer-loan">Consumer Loan</option>
-          <option value="car-loan">Car Loan</option>
+          <option value="House Loan">House Loan</option>
+          <option value="Consumer Loan">Consumer Loan</option>
+          <option value="Car Loan">Car Loan</option>
         </select>
         <form>
           <label for="term">Term:</label>
@@ -28,35 +28,11 @@
           <br />
           <input type="text" name="amount" id="amount" />
           <br />
-          <button>Calculate</button>
+          <button class="calculate-btn">Calculate</button>
         </form>
       </section>
-      <section class="results"> 
-        '
-        <h2>Credit Information</h2>
-        <table>
-            <tr>
-                <th>Amount of Credit</th>
-                <td>${amount.value}</td>
-                <th>Credit type</th>
-                <td>${type.value}</td>
-            </tr>
-            <tr>
-                <th>Term</th>
-                <td>${term.value}</td>
-                <th>Rate of Charge Interest</th>
-                <td>${rate.value}</td>
-            </tr>
-            <tr>
-                <th>Total Amount</th>
-                <td>${(payment*term.value).toFixed(2)} ₺</td>
-                <th>Amount of Payment</th>
-                <td>${payment.toFixed(2)} ₺</td>
-            </tr>
-        </table>
-        ';
-      </section>
+      <section class="results"></section>
     </div>
-    <script src="./credit.js000"></script>
+    <script src="./credit.js"></script>
   </body>
 </html>
